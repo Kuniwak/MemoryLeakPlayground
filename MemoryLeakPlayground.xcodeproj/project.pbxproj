@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2475E080E45E8515AC122660 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E879440BE3AF5DC3B08A /* Excercise.swift */; };
+		2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475ED698AC1B767535B00D7 /* Exercise5_2.m */; };
 		6263A376283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263A375283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift */; };
 		6263A378283F548700BAF1D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263A377283F548700BAF1D8 /* ContentView.swift */; };
 		6263A37A283F548C00BAF1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6263A379283F548C00BAF1D8 /* Assets.xcassets */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2475E4CBF5753A99848D7A15 /* Exercise5_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise5_2.h; sourceTree = "<group>"; };
+		2475E879440BE3AF5DC3B08A /* Excercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		2475ED698AC1B767535B00D7 /* Exercise5_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise5_2.m; sourceTree = "<group>"; };
+		2475EFAC59C1BBCAA5B8B949 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		6263A372283F548700BAF1D8 /* MemoryLeakPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryLeakPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6263A375283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakPlaygroundApp.swift; sourceTree = "<group>"; };
 		6263A377283F548700BAF1D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,10 @@
 				6263A377283F548700BAF1D8 /* ContentView.swift */,
 				6263A379283F548C00BAF1D8 /* Assets.xcassets */,
 				6263A37B283F548C00BAF1D8 /* Preview Content */,
+				2475E879440BE3AF5DC3B08A /* Excercise.swift */,
+				2475ED698AC1B767535B00D7 /* Exercise5_2.m */,
+				2475E4CBF5753A99848D7A15 /* Exercise5_2.h */,
+				2475EFAC59C1BBCAA5B8B949 /* BridgingHeader.h */,
 			);
 			path = MemoryLeakPlayground;
 			sourceTree = "<group>";
@@ -259,6 +269,8 @@
 			files = (
 				6263A378283F548700BAF1D8 /* ContentView.swift in Sources */,
 				6263A376283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift in Sources */,
+				2475E080E45E8515AC122660 /* Excercise.swift in Sources */,
+				2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.dena.swet.MemoryLeakPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MemoryLeakPlayground/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.dena.swet.MemoryLeakPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MemoryLeakPlayground/BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
