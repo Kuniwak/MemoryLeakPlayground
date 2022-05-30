@@ -1,11 +1,10 @@
-//
-// Created by Yuki Kokubun on 2022/05/26.
-//
-
 #import <Foundation/Foundation.h>
+#import "Weight.h"
 
 
 @interface Exercise5_2 : NSObject
 - (id)init:(NSObject *)fromSwift;
-@property NSObject *swift;
+
+@property (nonatomic, readonly) NSObject *swift;
+@property (nonatomic, readonly) Weight *weight;
 @end

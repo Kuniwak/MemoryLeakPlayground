@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "xctassertnoleak",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tarunon/XCTAssertNoLeak",
+      "state" : {
+        "revision" : "779fc4653b9720c9119019db876c8fc5cf331052",
+        "version" : "0.3.1"
+      }
+    }
+  ],
+  "version" : 2
+}

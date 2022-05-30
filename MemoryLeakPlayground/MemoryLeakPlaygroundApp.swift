@@ -1,10 +1,3 @@
-//
-//  MemoryLeakPlaygroundApp.swift
-//  MemoryLeakPlayground
-//
-//  Created by Yuki Kokubun on 2022/05/26.
-//
-
 import SwiftUI
 
 @main
