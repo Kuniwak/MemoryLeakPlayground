@@ -9,7 +9,7 @@
         return nil;
     }
     _swift = fromSwift;
-    _weight = [[Weight alloc] init];
+    _weight = [[Weight2 alloc] init];
     return self;
 }
 

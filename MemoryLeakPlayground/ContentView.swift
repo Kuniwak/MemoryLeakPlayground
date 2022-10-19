@@ -5,9 +5,19 @@ struct ContentView: View {
         List {
             Section(header: Text("Exercise")) {
                 Button {
-                    Exercise.exercise1()
+                    Exercise.exercise1_1()
                 } label: {
-                    Text("Exercise 1")
+                    Text("Exercise 1.1")
+                }
+                Button {
+                    Exercise.exercise1_2()
+                } label: {
+                    Text("Exercise 1.2")
+                }
+                Button {
+                    Exercise.exercise1_3()
+                } label: {
+                    Text("Exercise 1.3")
                 }
                 Button {
                     Exercise.exercise2()
@@ -33,6 +43,11 @@ struct ContentView: View {
                     Exercise.exercise6()
                 } label: {
                     Text("Exercise 6")
+                }
+                Button {
+                    Exercise.exercise7()
+                } label: {
+                    Text("Exercise 7")
                 }
             }
         }

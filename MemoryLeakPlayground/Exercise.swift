@@ -2,11 +2,22 @@ import Foundation
 
 
 
-public class Exercise1 {
+public class Exercise1_1 {
     var value: Any?
-    private let weight = Weight()
+    private let weight = Weight1()
 }
 
+
+public class Exercise1_2 {
+    var value: Any?
+    private let weight = Weight2()
+}
+
+
+public class Exercise1_3 {
+    var value: Any?
+    private let weight = Weight3()
+}
 
 
 public class Exercise2 {
@@ -17,14 +28,14 @@ public class Exercise2 {
 
 public class Exercise3 {
     var value: Any?
-    private let weight = Weight()
+    private let weight = Weight2()
 }
 
 
 
 public class Exercise4 {
     var value: Any?
-    private let weight = Weight()
+    private let weight = Weight2()
 
 
     init() {
@@ -78,7 +89,7 @@ public protocol EventHubObserver: AnyObject {
 
 
 public class Exercise6: EventHubObserver {
-    private let weight = Weight()
+    private let weight = Weight2()
 
 
     init() {
@@ -98,7 +109,7 @@ public class Exercise6: EventHubObserver {
 
 public class Exercise7 {
     var value: Any?
-    private let weight = Weight()
+    private let weight = Weight2()
 
     public class Indirect: CustomReflectable {
         var value: Any?
@@ -112,8 +123,22 @@ public class Exercise7 {
 
 
 public enum Exercise {
-    @discardableResult public static func exercise1() -> Exercise1 {
-        let x = Exercise1()
+    @discardableResult public static func exercise1_1() -> Exercise1_1 {
+        let x = Exercise1_1()
+        x.value = x
+        return x
+    }
+
+
+    @discardableResult public static func exercise1_2() -> Exercise1_2 {
+        let x = Exercise1_2()
+        x.value = x
+        return x
+    }
+
+
+    @discardableResult public static func exercise1_3() -> Exercise1_3 {
+        let x = Exercise1_3()
         x.value = x
         return x
     }
@@ -122,7 +147,7 @@ public enum Exercise {
     @discardableResult public static func exercise2() -> Exercise2 {
         let x = Exercise2()
         var values = [Any]()
-        values.append(Weight() as Any)
+        values.append(Weight2() as Any)
 
         for _ in 0..<100 {
             values.append(Exercise2())
@@ -179,7 +204,7 @@ public enum Exercise {
     @discardableResult public static func exercise7() -> Exercise7.Indirect {
         let x = Exercise7()
         x.value = x
-        var y = Exercise7.Indirect()
+        let y = Exercise7.Indirect()
         y.value = x
         return y
     }

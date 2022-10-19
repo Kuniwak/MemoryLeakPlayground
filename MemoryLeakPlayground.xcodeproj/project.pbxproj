@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2475E080E45E8515AC122660 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E879440BE3AF5DC3B08A /* Exercise.swift */; };
-		2475E758D2B704BC30CF0261 /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475EEFFAEB39AD0C1F7F047 /* Weight.m */; };
+		2475E758D2B704BC30CF0261 /* Weight2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475EEFFAEB39AD0C1F7F047 /* Weight2.m */; };
+		2475E846B71E9721FBBC1112 /* Weight3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E6DED588E3ADD60603BE /* Weight3.swift */; };
 		2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475ED698AC1B767535B00D7 /* Exercise5_2.m */; };
 		6248B6AD2844888800870428 /* XCTAssertNoLeak in Frameworks */ = {isa = PBXBuildFile; productRef = 6248B6AC2844888800870428 /* XCTAssertNoLeak */; };
 		6263A376283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263A375283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift */; };
@@ -39,10 +40,11 @@
 
 /* Begin PBXFileReference section */
 		2475E4CBF5753A99848D7A15 /* Exercise5_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise5_2.h; sourceTree = "<group>"; };
-		2475E53E02575BADFC82871B /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
+		2475E53E02575BADFC82871B /* Weight2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight2.h; sourceTree = "<group>"; };
+		2475E6DED588E3ADD60603BE /* Weight3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight3.swift; sourceTree = "<group>"; };
 		2475E879440BE3AF5DC3B08A /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		2475ED698AC1B767535B00D7 /* Exercise5_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise5_2.m; sourceTree = "<group>"; };
-		2475EEFFAEB39AD0C1F7F047 /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
+		2475EEFFAEB39AD0C1F7F047 /* Weight2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight2.m; sourceTree = "<group>"; };
 		2475EFAC59C1BBCAA5B8B949 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		6263A372283F548700BAF1D8 /* MemoryLeakPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryLeakPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6263A375283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakPlaygroundApp.swift; sourceTree = "<group>"; };
@@ -113,8 +115,9 @@
 				2475ED698AC1B767535B00D7 /* Exercise5_2.m */,
 				2475E4CBF5753A99848D7A15 /* Exercise5_2.h */,
 				2475EFAC59C1BBCAA5B8B949 /* BridgingHeader.h */,
-				2475EEFFAEB39AD0C1F7F047 /* Weight.m */,
-				2475E53E02575BADFC82871B /* Weight.h */,
+				2475EEFFAEB39AD0C1F7F047 /* Weight2.m */,
+				2475E53E02575BADFC82871B /* Weight2.h */,
+				2475E6DED588E3ADD60603BE /* Weight3.swift */,
 			);
 			path = MemoryLeakPlayground;
 			sourceTree = "<group>";
@@ -284,7 +287,8 @@
 				6263A376283F548700BAF1D8 /* MemoryLeakPlaygroundApp.swift in Sources */,
 				2475E080E45E8515AC122660 /* Exercise.swift in Sources */,
 				2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */,
-				2475E758D2B704BC30CF0261 /* Weight.m in Sources */,
+				2475E758D2B704BC30CF0261 /* Weight2.m in Sources */,
+				2475E846B71E9721FBBC1112 /* Weight3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,10 +3,18 @@ import XCTAssertNoLeak
 import MemoryLeakPlayground
 
 class MemoryLeakPlaygroundTests: XCTestCase {
-    func testExercise1() throws {
-        XCTAssertNoLeak(Exercise.exercise1())
+    func testExercise1_1() throws {
+        XCTAssertNoLeak(Exercise.exercise1_1())
     }
-
+    
+    func testExercise1_2() throws {
+        XCTAssertNoLeak(Exercise.exercise1_2())
+    }
+    
+    func testExercise1_3() throws {
+        XCTAssertNoLeak(Exercise.exercise1_3())
+    }
+    
     func testExercise2() throws {
         XCTAssertNoLeak(Exercise.exercise2())
     }
