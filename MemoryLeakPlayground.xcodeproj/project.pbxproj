@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2475E080E45E8515AC122660 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E879440BE3AF5DC3B08A /* Exercise.swift */; };
+		2475E587057397C4FFB60118 /* Weight1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E0AE2611EF1A4BF175E8 /* Weight1.swift */; };
 		2475E758D2B704BC30CF0261 /* Weight2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475EEFFAEB39AD0C1F7F047 /* Weight2.m */; };
 		2475E846B71E9721FBBC1112 /* Weight3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E6DED588E3ADD60603BE /* Weight3.swift */; };
 		2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475ED698AC1B767535B00D7 /* Exercise5_2.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2475E0AE2611EF1A4BF175E8 /* Weight1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight1.swift; sourceTree = "<group>"; };
 		2475E4CBF5753A99848D7A15 /* Exercise5_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise5_2.h; sourceTree = "<group>"; };
 		2475E53E02575BADFC82871B /* Weight2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight2.h; sourceTree = "<group>"; };
 		2475E6DED588E3ADD60603BE /* Weight3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weight3.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				2475EEFFAEB39AD0C1F7F047 /* Weight2.m */,
 				2475E53E02575BADFC82871B /* Weight2.h */,
 				2475E6DED588E3ADD60603BE /* Weight3.swift */,
+				2475E0AE2611EF1A4BF175E8 /* Weight1.swift */,
 			);
 			path = MemoryLeakPlayground;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				2475E9F34EBE5B42A1514384 /* Exercise5_2.m in Sources */,
 				2475E758D2B704BC30CF0261 /* Weight2.m in Sources */,
 				2475E846B71E9721FBBC1112 /* Weight3.swift in Sources */,
+				2475E587057397C4FFB60118 /* Weight1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
